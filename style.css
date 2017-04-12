@@ -1,0 +1,53 @@
+.header {
+	/*background-color: blue;*/
+}
+
+.titlebox {
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	background-color: red;
+	width: 197px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+
+.title a {
+	text-decoration:none;
+	color: white;
+}
+.title:hover {
+    background-color: #111;
+}
+
+
+ul {
+    list-style-type: none;
+	font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+li {
+    float: left;
+	align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.picturebox {
+	background-color: blue;
+}
