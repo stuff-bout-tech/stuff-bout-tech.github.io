@@ -1,0 +1,118 @@
+.header {}
+
+.titlebox {
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	background-color: red;
+	width: 173px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+
+.title a {
+	text-decoration: none;
+	color: white;
+}
+
+.title:hover {
+	background-color: #111;
+}
+
+.title a:hover {
+	color: red;
+}
+
+ul {
+	list-style-type: none;
+	font-family: 'Russo One', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: red;
+}
+
+li {
+	float: left;
+	text-align: center;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li a:hover {
+	background-color: #111;
+	color: red;
+}
+
+.about {
+	margin-left: 5px;
+	margin-top: 15px;
+	width: 20%;
+	color: white;
+	background-color: red;
+	font-size: 15px;
+}
+
+.about h2 {
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+}
+
+.about p {
+	font-family: 'Macondo', cursive;
+	text-align: center;
+	font-size: 15px
+}
+
+.about:hover {
+	background-color: black;
+}
+
+#about:hover h2 {
+	color: red;
+}
+
+.content {
+	position: relative;
+	top: -125px;
+	margin-left: 22%;
+	margin-right: 10%;
+}
+
+.content h2 {
+	font-family: 'Russo One', sans-serif;
+}
+
+#content:hover h2 {
+	color: red;
+}
+
+.cont h3 {
+	font-family: 'Russo One', sans-serif;
+}
+
+.cont p {
+	font-family: 'Macondo', cursive;
+}
+
+
+.footer {
+	position: bottom;
+	background-color: red;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	height: 25px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.footer:hover {
+	background-color: black;
+	color: white;
+}

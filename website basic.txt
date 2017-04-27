@@ -1,0 +1,180 @@
+_____________|
+Website basic|
+-------------|
+
+_________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________{[(html)]}______________________________________________________________________________
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>TECH STUFF</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="tipuesearch/css/tipuesearch.css" rel="stylesheet">
+	<link href="style.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400">
+	<link href="tipuesearch/css/normalize.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script>
+	<script src="tipuesearch/tipuesearch_content.js">
+	</script>
+	<link href="tipuesearch/css/tipuesearch.css" rel="stylesheet">
+	<script src="tipuesearch/tipuesearch_set.js">
+	</script>
+	<script src="tipuesearch/tipuesearch.min.js">
+	</script>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<div class="header">
+		<div class="titlebox">
+			<h1 class="title"><a href="index.html">TECH STUFF</a>
+			</h1>
+		</div>
+
+
+		<div class="nav">
+			<ul class="topnav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+
+
+				<li>
+					<a href="#">New Tech</a>
+				</li>
+
+
+				<li>
+					<a href="#">History</a>
+				</li>
+
+
+				<li>
+					<a href="#">Small Stuff</a>
+				</li>
+
+
+				<li>
+					<a href="#">Large stuff</a>
+				</li>
+
+
+				<li>
+					<a href="#">About</a>
+				</li>
+
+
+				<li style="float:right; background-color:white;">
+					<form action="search.html">
+						<div class="tipue_search_left">
+						</div>
+
+
+						<div class="tipue_search_right">
+							<input id="tipue_search_input" name="q" pattern=".{3,}" placeholder="Search" required="" title="At least 3 characters" type="text">
+						</div>
+
+
+						<div style="clear: both;">
+						</div>
+					</form>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<footer class="footer">
+		<p class="text-muted">&copy;Tech-Stuff 2017 by Simon Jimmichan, all rights reserved</p>
+	</footer>
+	<script>
+	$(document).ready(function() {
+	    $('#tipue_search_input').tipuesearch();
+	});
+	</script>
+</body>
+</html>
+
+
+
+
+
+___________________________________________________________________         _____________________________________________________________________________
+___________________________________________________________________{[(css)]}_____________________________________________________________________________
+
+.header {}
+
+.titlebox {
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	background-color: red;
+	width: 173px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+
+.title a {
+	text-decoration: none;
+	color: white;
+}
+
+.title:hover {
+	background-color: #111;
+}
+
+.title a:hover {
+	color: red;
+}
+
+ul {
+	list-style-type: none;
+	font-family: 'Russo One', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: red;
+}
+
+li {
+	float: left;
+	text-align: center;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li a:hover {
+	background-color: #111;
+	color: red;
+}
+
+.footer {
+	position: bottom;
+	background-color: red;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	height: 25px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.footer:hover {
+	background-color: black;
+	color: white;
+}
+
+
+________________________________________________________________________________________________________________________________________________
+_________________________________________________________{[(Tipue Search Basic)]}_____________________________________________________________________________
+
+     {"title": "Tipue", "text": "Tipue is a small web development studio based in North London.", "tags": "jQuery HTML5 CSS", "url": "http://www.tipue.com"},

@@ -1,0 +1,107 @@
+<body>
+	<div class="header">
+		<div class="titlebox">
+			<h1 class="title"><a href="index.html">TECH STUFF</a>
+			</h1>
+		</div>
+
+
+		<div class="nav">
+			<ul class="topnav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+
+
+				<li>
+					<a href="#">New Tech</a>
+				</li>
+
+
+				<li>
+					<a href="#">History</a>
+				</li>
+
+
+				<li>
+					<a href="#">Small Stuff</a>
+				</li>
+
+
+				<li>
+					<a href="#">Large stuff</a>
+				</li>
+
+
+				<li>
+					<a href="#">About</a>
+				</li>
+
+
+				<li style="float:right; background-color:white;">
+					<form action="search.html">
+						<div class="tipue_search_left">
+						</div>
+
+
+						<div class="tipue_search_right">
+							<input id="tipue_search_input" name="q" pattern=".{3,}" placeholder="Search" required="" title="At least 3 characters" type="text">
+						</div>
+
+
+						<div style="clear: both;">
+						</div>
+					</form>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="about" id="about">
+		<h2><u>Tech Stuff</u>
+		</h2>
+
+
+		<p>This is a website, call it a blog, call it a copy of another site, I don't care this is my site where I look at if you haven't already guessed technology old, new, small, big. In the history section we look at old technology, in the new section we look at new stuff, In the small section we look at small advances and small technology, in the big section, we look at big advances and big stuff and finally in the about section we look at the workings of different technology.</p>
+	</div>
+
+
+	<div class="content" id="content">
+		<h2><u>Home</u>
+		</h2>
+
+
+		<div class="middle" id="center">
+			<a href="#">
+			<div class="NT">
+				<h3>New Tech</h3>
+
+
+				<h4>Here we look at new stuff</h4>
+			</div></a> <a href="#">
+			<div class="HS">
+				<h3>History</h3>
+			</div></a> <a href="#">
+			<div class="SS">
+				<h3>Small Stuff</h3>
+			</div></a> <a href="#">
+			<div class="LS">
+				<h3>Large Stuff</h3>
+			</div></a> <a href="#">
+			<div class="AT">
+				<h3>About</h3>
+			</div></a>
+		</div>
+	</div>
+
+
+	<footer class="footer">
+		<p class="text-muted">&copy;Tech-Stuff 2017 by Simon Jimmichan, all rights reserved</p>
+	</footer>
+	<script>
+	   $(document).ready(function() {
+	       $('#tipue_search_input').tipuesearch();
+	   });
+	</script>
+</body>
